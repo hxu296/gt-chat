@@ -12,7 +12,7 @@ export function Intro() {
       >
         <Balancer>
           <span>Buzz AI -- </span>
-          <span>24/7 GT advisor for&nbsp;</span>
+          <span>your 24/7 GT advisor for&nbsp;</span>
           <span className="bg-co bg-gradient-to-r from-blue-500 via-green-600 to-indigo-500 bg-clip-text text-transparent">
             anything
           </span>
