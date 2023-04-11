@@ -86,6 +86,14 @@ Step 3: Run Local Server
 python main.py
 ```
 
+## Special Thanks
+
+[Risingwave](https://github.com/risingwavelabs/chatgpt-doc-plugin) for the chatgpt-plugin repo that I used as a starting point for our backend.
+
+
+[odysa](https://github.com/odysa/buckyai) for the BuckyAI repo that I used as a starting point for our frontend.
+
+
 ## Contributing
 
 Pull requests are always welcomed!
