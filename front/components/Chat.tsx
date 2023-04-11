@@ -9,7 +9,7 @@ export const initialMessages: Message[] = [
   {
     who: "bot",
     message:
-      "Hi, I'am Buzz AI, an Q&A bot. I've read 14842 official GaTech websites from housing, cc, cse, omscs, and 20 more sub-domains. Ask me anything about Tech!\n\nExample:\nList professors doing MLSys & HPC research.\nWhat's the Co-op policy for grad students?\nWhat are ways to apply for GTA?\nWrite two creative verses about yourself, in the musical Hamilton's style.",
+      "Hi, I'am Buzz AI, an Q&A bot. I've read 14842 official GaTech websites from housing, cc, cse, omscs, and 20 more sub-domains. Ask me anything about Tech!\n\nExample:\nList professors doing HPC research or offering such courses.\nWhat's the Co-op policy for grad students?\nWhat are ways to apply for GTA?\nWrite two creative verses about yourself, in the musical Hamilton's style.",
   },
 ];
 
