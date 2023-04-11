@@ -2,7 +2,7 @@
 
 ![buzzai-badge](https://socialify.git.ci/hxu296/gt-chat/image?font=Inter&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
 
-BuzzAI or gt-chat is a question-answering chatbot that is designed to answer any questions about __GaTech__. The chatbot is powered by Next.js, FastAPI, and OpenAI, and it provides a fast and intuitive interface for finding answers to commonly asked questions by sourcing from over [14k Georgia Tech websites](./back/websites.txt).
+BuzzAI or gt-chat is a question-answering chatbot that is designed to answer any questions about __GaTech__. The chatbot is powered by Next.js, FastAPI, and OpenAI, and it provides a fast and intuitive interface for finding answers to commonly asked questions by sourcing from over [14k Georgia Tech websites](./back/websites.txt). You can try it out at [gt-chat.org](https://gt-chat.org)!
 
 ![Screenshot of BuzzAI](./assets/gt-chat.png)
 
@@ -45,6 +45,20 @@ This will start the Next.js development server and open the chatbot in your defa
 ## Backend Installation
 
 The backend for the project is a python fastapi server that uses the LangChain + OpenAI API to generate answer for to `/qa` GET endpoint.
+
+__Supabase__
+
+You will need to set up a Supabase project and create a table called `qa_log` with the following schema:
+
+| Column Name | Data Type |
+| ----------- | --------- |
+| id          | uuid      |
+| created_at  | timestamp |
+| question    | text      |
+| answer      | text      |
+| success     | boolean   |
+
+You need the Supabase project URL and service key to set up the environment variables later.
 
 __Deployment__
 

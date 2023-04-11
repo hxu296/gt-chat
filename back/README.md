@@ -2,6 +2,20 @@
 
 The backend for the project is a python fastapi server that uses the LangChain + OpenAI API to generate answer for to `/qa` GET endpoint.
 
+__Supabase__
+
+You will need to set up a Supabase project and create a table called `qa_log` with the following schema:
+
+| Column Name | Data Type |
+| ----------- | --------- |
+| id          | uuid      |
+| created_at  | timestamp |
+| question    | text      |
+| answer      | text      |
+| success     | boolean   |
+
+You need the Supabase project URL and service key to set up the environment variables later.
+
 __Deployment__
 
 Change the Railway build command to `bash build.sh` and it should work out of the box.
