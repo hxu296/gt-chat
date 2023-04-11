@@ -1,16 +1,8 @@
-# Buzz AI
-
-BuzzAI is a question-answering chatbot that is designed to answer any questions about the University of Wisconsin-Madison. The chatbot is powered by Next.js and OpenAI, and it provides a fast and intuitive interface for finding answers to commonly asked questions.
-
-## Getting Started
-
-To get started with BuzzAI, you will need to clone the repository and configure the chatbot.
-Prerequisites
-
-To use BuzzAI, you will need:
+# Front
+To start the frontend you will need:
 
 - Node.js 12 or later installed
-- An OpenAI API key
+- The URL of the backend server as an environment variable `DOMAIN`
 
 ## Deployment
 
