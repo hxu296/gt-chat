@@ -7,6 +7,6 @@ requests==2.22.0
 uvicorn==0.21.1
 slowapi
 openai
+tiktoken
 faiss-cpu
-supabase
 supabase
