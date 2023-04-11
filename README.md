@@ -89,10 +89,10 @@ python main.py
 
 ## Special Thanks
 
-[Risingwave](https://github.com/risingwavelabs/chatgpt-doc-plugin) for the chatgpt-plugin repo that I used as a starting point for our backend.
+[Risingwave](https://github.com/risingwavelabs/chatgpt-doc-plugin) for the chatgpt-plugin repo that I used as a starting point for the backend.
 
 
-[odysa](https://github.com/odysa/buckyai) for the BuckyAI repo that I used as a starting point for our frontend.
+[odysa](https://github.com/odysa/buckyai) for the BuckyAI repo that I used as a starting point for the frontend.
 
 
 ## Contributing
