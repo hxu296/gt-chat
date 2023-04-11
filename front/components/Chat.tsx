@@ -31,7 +31,7 @@ const InputMessage = ({ input, setInput, sendMessage }: any) => {
           setInput(target.value);
         }}
         value={input}
-        placeholder="Where and when can I swim?"
+        placeholder="You can use the language of choice, Buzz will respond in your language."
       ></textarea>
       <button
         className="relative -left-10"
