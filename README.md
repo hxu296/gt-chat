@@ -1,6 +1,10 @@
 # Buzz AI
 
-BuzzAI is a question-answering chatbot that is designed to answer any questions about GaTech. The chatbot is powered by Next.js, FastAPI, and OpenAI, and it provides a fast and intuitive interface for finding answers to commonly asked questions by sourcing from over [14k Georgia Tech websites](./back/websites.txt).
+![buzzai-badge](https://socialify.git.ci/hxu296/gt-chat/image?font=Inter&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
+
+BuzzAI or gt-chat is a question-answering chatbot that is designed to answer any questions about __GaTech__. The chatbot is powered by Next.js, FastAPI, and OpenAI, and it provides a fast and intuitive interface for finding answers to commonly asked questions by sourcing from over [14k Georgia Tech websites](./back/websites.txt).
+
+![Screenshot of BuzzAI](./assets/gt-chat.png)
 
 ## Getting Started
 
@@ -42,22 +46,28 @@ This will start the Next.js development server and open the chatbot in your defa
 
 The backend for the project is a python fastapi server that uses the LangChain + OpenAI API to generate answer for to `/qa` GET endpoint.
 
+__Deployment__
+
+Change the Railway build command to `bash build.sh` and it should work out of the box.
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/FZffm_?referralCode=wOsORh)
+
 __To run the server locally:__
 
-1. Set up python environment and fetch OpenAI embeddings
+Step 1: Set up python environment and fetch OpenAI embeddings
 ```
 python3 -m venv venv
 bash build.sh
 ```
 
-2. Set up environment variables
+Step 2: Set up environment variables
 ```
 export OPENAI_API_KEY=<your key>
 export SUPABASE_URL=<supabase project url>
 export SUPABASE_KEY=<supabase project *service* key, not annon key>
 ```
 
-3. Run Local Server
+Step 3: Run Local Server
 ```
 python main.py
 ```
