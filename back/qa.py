@@ -55,7 +55,7 @@ Answer:
 """
 
 def answer(question):
-    docs = search_index.similarity_search(question, k=5)
+    docs = search_index.similarity_search(question, k=10)
     context = '\n\n'.join([f'{i+1}. https://{doc.metadata["source"]}. {doc.page_content}' for i, doc in enumerate(docs)])
     messages = [        SystemMessage(content=SYSTEM_TEMPLATE),
         HumanMessage(content=QUESTION_TEMPLATE.format(context=context, question=question))
